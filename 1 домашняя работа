@@ -10,9 +10,9 @@ def numbers1(modes: str = "abc"):
             break
         numbers.append(int(line))
     if "a" in modes:
-        print("Введенная последовательность чисел",  numbers )
+        print("Введенная последовательность чисел-",  numbers )
     if "b" in modes:
-        print("Сумма введенных чисел", sum(numbers))
+        print("Сумма введенных чисел-", sum(numbers))
     if "c" in modes:
-        print("Самое большое число из введенных", max(numbers))
+        print("Самое большое число из введенных-", max(numbers))
 numbers1()
